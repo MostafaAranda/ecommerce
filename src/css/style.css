@@ -118,3 +118,100 @@ body{
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
 }
+/* ending navbar */
+
+/* starting slider */
+#carousel-feature{
+    background-color:#f7f8f3 ;
+    height: 400px;
+    padding-top: 25px;
+}
+#carousel-feature .carousel-item{
+    transition: transform 1s ease-in-out;
+}
+#carousel-feature .carousel-item img{
+    height:370px;
+}
+#carousel-feature .product-details{
+    border: 1px solid #dddddb;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    height: 200px;
+    background-color: #f7f8f3;
+}
+#carousel-feature .product-details h1{
+    font-weight: 700;
+    font-size:175% ;
+    margin-top: 18px;
+}
+.custom-btn-outline-warning {
+    background-color: transparent;
+    border:1px solid #f8ad47;
+    color: #f8ad47;
+}
+
+#carousel-feature .product-details .product-category{
+    border: 1px solid #dddddb;
+    padding: 10px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #f7f8f3;
+}
+.custom-btn-outline-warning:hover , 
+.custom-btn-outline-warning:active ,
+.custom-btn-outline-warning:focus ,
+.custom-btn-outline-warning:active:focus ,
+.custom-btn-outline-warning:active:hover{
+    border-color: #b86d07;
+    color: #b86d07;
+}
+.sale{
+    position: absolute;
+    background-color: #53ccd7;
+    color: #fff;
+    font-weight: bold;
+}
+.sale.large{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    top: -15px;
+    left: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+    padding: 35px;
+    line-height: 90%;
+    flex-direction: column;
+    transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+}
+.custom-carousel-indicarors{
+    top: 235px;
+    right: 41%;
+}
+
+.custom-carousel-indicarors-primary{
+    height: 70px !important;
+    width: 70px !important;
+    opacity: 1 !important;
+    border: 2px solid #dddddb !important;
+    margin: 0 !important;
+    margin-left: 5px !important;
+}
+.custom-carousel-indicarors-primary.active{
+    border-color:#f8ad47 !important;
+}
+#carousel-feature .carousel-control-prev .fa-chevron-right,
+#carousel-feature .carousel-control-next .fa-chevron-left{
+    color: #868686;
+    font-size:38px ;
+}
+
+
